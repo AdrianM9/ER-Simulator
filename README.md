@@ -35,26 +35,26 @@ fields.
 like the ones performed by doctors, nurses, ER technicians or even patients. The
 hospital's queues are also here.
 
-	--- hospital.patients package
-		Here we have everything we need to manage the patients in the hospital.
+  --- hospital.patients package
+	  Here we have everything we need to manage the patients in the hospital.
 
-		--- hospital.patients.comparators package
-			Here we have two classes based on the singleton pattern. They
-		implement the Comparator interface and allow to compare urgencies and
-		patients.
+   --- hospital.patients.comparators package
+	   Here we have two classes based on the singleton pattern. They
+   implement the Comparator interface and allow to compare urgencies and
+   patients.
 
-	--- hospital.queues package
-		Here are the three hospital's queues where the patients can be placed. 
-		They are implemented using a list and a sort option which sorts the
-	patients using the PatientComparator instance.
+  --- hospital.queues package
+	  Here are the three hospital's queues where the patients can be placed. 
+	  They are implemented using a list and a sort option which sorts the
+  patients using the PatientComparator instance.
 
-	--- hospital.staff package
-		Here are the doctors, nurses and ER Technicians. The classes contains
-	the methods specific for every kind of staff member.
+  --- hospital.staff package
+	  Here are the doctors, nurses and ER Technicians. The classes contains
+  the methods specific for every kind of staff member.
 
-		--- hospital.staff.doctors package
-			Here we found all the doctors. There is a basic class Doctor and
-		particular classes for every kind of doctor.
+   --- hospital.staff.doctors package
+	   Here we found all the doctors. There is a basic class Doctor and
+	   particular classes for every kind of doctor.
 
 --- services package
 	This package contains the classes responsible for reading the input,
